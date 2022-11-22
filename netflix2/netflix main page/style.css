@@ -1,0 +1,60 @@
+.full_body{
+    background-color: black;
+}
+
+
+
+.header{
+    display: inline-block;
+    
+}
+.op{
+    float: left;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 50px;
+margin-top: 25px;
+
+}
+.opbar{
+    margin: 12px;
+    color: rgb(216, 216, 48);
+}
+
+.option{
+    float: right;
+    margin: 18px;
+    background-color: rgb(216, 216, 6);
+    margin-top: 25px;
+}
+.nonsubmit{
+    padding: 0px;
+    border: 8px;
+}
+
+.header-logo{
+    float: left;
+    width: 180px;
+    margin: 15px;
+}
+.topvideo{
+    margin-left: 40px;
+
+}
+.title1,.title2{
+    color: rgb(216,216, 6);
+}
+.loganvideo,.Airrack,.mrbeast{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+
+    /* overflow: -moz-hidden-scrollable; */
+}
+::-webkit-scrollbar{
+    display:none
+}
+.frame{
+    border-color: black;
+}
